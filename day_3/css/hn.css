@@ -1,4 +1,108 @@
 * {
   margin: 0px;
   padding: 0px;
+  border: 0.5px solid red;
+}
+
+.mainwrap {
+  width: 100%;
+  height: 700px;
+  background-color: grey;
+  display: flex;
+}
+
+.header {
+  width: 20%;
+}
+
+.logo {
+  background-color: rgb(255, 164, 250);
+  height: 100px;
+}
+
+.nav {
+  background-color: rgb(190, 212, 21);
+  height: 600px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.menu {
+  position: relative;
+}
+.subMenu {
+  position: absolute;
+  width: 130px;
+  left: 100%;
+  top: 0;
+  z-index: 998;
+}
+.nav > ul > li {
+  background-color: #cbfdfa;
+}
+.nav > ul > li > a {
+  display: block;
+  height: 147px;
+  text-align: center;
+}
+.nav > ul > li > a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.nav > ul > li > ul {
+  background-color: #c98787;
+}
+
+.nav > ul > li > ul > li {
+  background-color: #fff;
+}
+
+.nav > ul > li > ul > li > a {
+  padding: 2px;
+  display: block;
+  text-align: center;
+  height: 25px;
+}
+
+.nav > ul > li > ul > li > a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.subwrap {
+  background-color: rgb(0, 255, 55);
+  width: 80%;
+}
+
+.slider {
+  height: 350px;
+}
+
+.main {
+  display: flex;
+  height: 250px;
+}
+
+.footer {
+  height: 100px;
+  background-color: gold;
+}
+
+.m1 {
+  background-color: rgb(255, 197, 164);
+  width: 33.33333%;
+}
+.m2 {
+  background-color: rgb(130, 177, 20);
+  width: 33.33333%;
+}
+.m3 {
+  background-color: rgb(52, 0, 121);
+  width: 33.33333%;
 }
